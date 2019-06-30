@@ -1,0 +1,18 @@
+h1{
+	color: #6c6464;
+  
+}
+p{
+	font-size: 20px;
+    font-weight: bold;
+}
+.reg-form{
+	  
+	padding: 70px 0 100px;
+	z-index: 1;
+}
+.form{
+	width: 550px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
