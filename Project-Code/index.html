@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+
+<script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css"></link>
+</head>
+<body>
+<p id="demo"></p>
+
+<h1>Form validation</h1>
+<form action="/action_page.php" class="irtifa" name="forms" action="register.php" method="POST" onsubmit="form_validation()">
+    Name:      <input type="text" name="name" placeholder="name" style="margin-left:105px"><br> 
+    <br>
+    Username:  <input type="text" name="username" placeholder="Username " style="margin-left:85px"><br>
+    <br>        
+    Password:  <input type="password" name="password" placeholder="Password" style="margin-left:85px"><br><br>
+    Re-Type Password:<input type="password" name="re_password" placeholder="re_Password"style="margin-left:15px"><br><br>
+    Gender:<input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    <input type="radio" name="gender" value="other"> Other <br><br>
+    Programming Skill:<input type="checkbox" name="java" value="java"> java
+    <input type="checkbox" name="android" value="android"> android
+    <input type="checkbox" name="ruby" value="ruby"> ruby
+    <input type="checkbox" name="net" value="net"> net <br><br>
+    Contact number :<input type="number" name="number" placeholder="number"style="margin-left:85px"><br> 
+    <br>
+    Email :<input type="email" name="email" placeholder="email"  style="margin-left:85px"><br> 
+    <br>
+    College Name:
+  <select>
+  <option value="Mhammadpur Preparatory">Mhammadpur Preparatory</option>
+  <option value="VNS">VNS</option>
+  <option value="HOLY CRoss">HOLY CRoss"</option>
+  <option value="Others">Others </option>
+</select> 
+<br><br>
+ 
+    <button>Submit</button>
+</form>
+</body>
+</html>
