@@ -22,4 +22,10 @@ if(mysqli_query($link, $sql)){
 } else{
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
 }
- 
+ // close connection
+mysqli_close($link);
+?>
+<html>
+    <br/><a href="donate.php">Another Donation<a>
+    <br/><a href="index.html">Go to homepage<a>
+</html>
