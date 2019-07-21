@@ -22,3 +22,10 @@
 .topnav:hover {
   background-color: #660033;
 }
+.img-fluid {
+ padding: 0 6px;
+  width: 250%;
+  height: 250%;
+  float: left; 
+  max-width: 235px;
+}
