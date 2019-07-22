@@ -1,0 +1,42 @@
+{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #CC0000;
+}
+.topnav a {
+  float: right;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a.active 
+{
+  background-color: #CC0000 ;
+  color: white;
+}
+.topnav:hover {
+  background-color: #660033;
+}
+.img-fluid {
+ padding: 0 6px;
+  width: 100%;
+   height: auto;
+  float: left; 
+  max-width: 235px;
+}
+.lead
+{
+	color: blue;
+	text-align: justify;
+    letter-spacing: .5px;
+    line-height: 1.8;
+    font-style: oblique;
+    font-size: 14px;
+      font-weight: normal;
+
+}
