@@ -11,5 +11,10 @@
 <!--New user Register Link -->
 <p><a href="register.php">New User Registeration!</a></p>
 </form>
+<?php
+if(isset($_POST["submit"])){
+ if(!empty($_POST['user']) && !empty($_POST['pass'])){
+ $user = $_POST['user'];
+ $pass = $_POST['pass'];
 </body>
 </html>
