@@ -49,6 +49,9 @@ form input{
 	border-radius: 5px;
 	background: beige;
 }
-
+.btn:hover{
+	background-color: #0f0e0e42;
+	transition: all 0.4s;
+}
 
 
