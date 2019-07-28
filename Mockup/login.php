@@ -16,5 +16,9 @@ if(isset($_POST["submit"])){
  if(!empty($_POST['user']) && !empty($_POST['pass'])){
  $user = $_POST['user'];
  $pass = $_POST['pass'];
+ //DB Connection
+ $conn = new mysqli('localhost', 'root', '') or die(mysqli_error());
+ //Select DB From database
+ $db = mysqli_select_db($conn, 'log') or die("databse error");
 </body>
 </html>
