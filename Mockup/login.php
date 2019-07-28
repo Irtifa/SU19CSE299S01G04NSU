@@ -34,5 +34,9 @@ if(isset($_POST["submit"])){
  {
  session_start();
  $_SESSION['sess_user']=$user;
+ //Redirect Browser
+ header("Location:welcome.php");
+ }
+ }
 </body>
 </html>
