@@ -38,5 +38,16 @@ if(isset($_POST["submit"])){
  header("Location:welcome.php");
  }
  }
+ else
+ {
+ echo "Invalid Username or Password!";
+ }
+ }
+ else
+ {
+ echo "Required All fields!";
+ }
+}
+?>
 </body>
 </html>
