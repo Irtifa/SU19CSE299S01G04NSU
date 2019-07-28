@@ -23,5 +23,12 @@ if(isset($_POST["submit"])){
  //Selecting database
  $query = mysqli_query($conn, "SELECT * FROM userpass WHERE user='".$user."' AND pass='".$pass."'");
  $numrows = mysqli_num_rows($query);
+ if($numrows !=0)
+ {
+ while($row = mysqli_fetch_assoc($query))
+ {
+ $dbusername=$row['user'];
+ $dbpassword=$row['pass'];
+ }
 </body>
 </html>
