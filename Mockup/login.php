@@ -20,5 +20,8 @@ if(isset($_POST["submit"])){
  $conn = new mysqli('localhost', 'root', '') or die(mysqli_error());
  //Select DB From database
  $db = mysqli_select_db($conn, 'log') or die("databse error");
+ //Selecting database
+ $query = mysqli_query($conn, "SELECT * FROM userpass WHERE user='".$user."' AND pass='".$pass."'");
+ $numrows = mysqli_num_rows($query);
 </body>
 </html>
