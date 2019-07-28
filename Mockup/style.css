@@ -30,3 +30,13 @@ padding: 70px 180px 140px;
 	padding: 20px 25px 10px;
 	margin-top: 60px;
 }
+form input{
+    width: 100%;
+    border: 2px solid #6c6464;
+    padding: 18px;
+    margin-bottom: 21px;
+    background: beige;
+    border-radius: 5px;
+}
+
+
