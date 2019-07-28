@@ -30,5 +30,9 @@ if(isset($_POST["submit"])){
  $dbusername=$row['user'];
  $dbpassword=$row['pass'];
  }
+ if($user == $dbusername && $pass == $dbpassword)
+ {
+ session_start();
+ $_SESSION['sess_user']=$user;
 </body>
 </html>
