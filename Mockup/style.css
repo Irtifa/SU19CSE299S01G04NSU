@@ -53,5 +53,8 @@ form input{
 	background-color: #0f0e0e42;
 	transition: all 0.4s;
 }
+.content{
+    padding: 30px 210px 60px;
+}
 
 
