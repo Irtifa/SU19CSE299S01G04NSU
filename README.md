@@ -42,5 +42,7 @@ For this, we will collect data from real orphanage owner and update our informat
 <h6 align='justify'>In this project we will use html, css, Php, MySQL for database. And this is a total web based project so that all the info that will provide the user will save on our database directly. User can not able to see any other person’s or user information. There are 2 types of register. One is admin another is orphanage owner. Orphanage owner can see the interested parents provided information. donation information can see the admin. The rest development need more advanced code and authorizations.</h6>
 <h1>Technology</h1><br>
 <h6 align='justify'>In this management system this is a complete website based project. All the system developed has predefined system requirement for a maximum performance. However the system requirement is the minimum hardware and software to be designed. Below are the minimum and software are needed.</h6>
+<h1>Monetization/Business plan</h1><br>
+<h6 align='justify'>In future , I will try to make a mobile application version of this project .Also will try to make sure to add more detail data of the orphanage  houses . so that I can on the monetization on for Google add sense and many other sponsors .But that will take more time and  good enough resources and a worthy team to grow this up.</h6>
 </body>
 </html>
