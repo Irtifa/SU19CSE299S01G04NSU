@@ -18,11 +18,12 @@ Lecturer, ECE Department
 North South University, Dhaka, Bangladesh
 </h3> <br>
 
-SU19CSE299S01G04NSU<br>
-Name:Irtifa Sarwath<br>
-Id:1610187042<br>
-Project Name: Orphanage Management System <br>
-<br>
-</h1>
+<h1 align='center'>Submitted By:
+Irtifa Sarwath <br>
+ID:1610187042 <br>
+Email:irtifa.sarwath@northsouh.edu <br>
+Github: https://github.com/Irtifa/SU19CSE299S01G04NSU <br></h1><br>
+<h1>Project Details</h1> <br>
+<h2>Project name: Orphanage Management System </h2> <br>
 </body>
 </html>
