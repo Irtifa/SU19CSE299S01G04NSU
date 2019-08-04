@@ -69,3 +69,7 @@ a {
 	color:#97c950;
 	text-decoration:underline;
 }
+a.rm, a.com {
+	padding:0;
+	text-decoration:none;
+}
