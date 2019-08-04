@@ -33,3 +33,8 @@ h1 a, h1 a:hover {
 h1 span {
 	color:#78bbe6;
 }
+h1 small {
+	padding:0 10px;
+	font:normal 12px/1.2em Arial, Helvetica, sans-serif;
+	letter-spacing:normal;
+}
