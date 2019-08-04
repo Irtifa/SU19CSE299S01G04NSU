@@ -26,3 +26,7 @@ h1 {
 	letter-spacing:-2px;
 	text-align:center;
 }
+h1 a, h1 a:hover {
+	color:#636363;
+	text-decoration:none;
+}
