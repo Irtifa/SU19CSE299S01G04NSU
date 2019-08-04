@@ -80,3 +80,7 @@ a.rm, a.com {
 .header {
 	padding:0 0 20px;
 }
+.header_resize {
+	margin:0 auto;
+	width:970px;
+}
