@@ -89,3 +89,7 @@ a.rm, a.com {
 	background:#97c950;
 	margin:0;
 }
+.hbg img {
+	margin:0;
+	border-right:1px solid #FFF;
+}
