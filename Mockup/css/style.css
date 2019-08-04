@@ -7,3 +7,8 @@ body {
 	font:normal 12px/1.8em Arial, Helvetica, sans-serif;
 	background:#ffffff;
 }
+html, .main {
+	padding:0;
+	margin:0 auto;
+	width:970px;
+}
