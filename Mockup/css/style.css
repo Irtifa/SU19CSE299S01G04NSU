@@ -93,3 +93,8 @@ a.rm, a.com {
 	margin:0;
 	border-right:1px solid #FFF;
 }
+.hbg div.info {
+	text-align:center;
+	width:298px;
+	padding:80px 0 0;
+}
