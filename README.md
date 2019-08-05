@@ -3,7 +3,7 @@
 
 </head>
 <body>
-
+<img align='center' src="Project Code/download.jpg" />
 <h1 align='center'>
 Department of Electrical and Computer Engineering
 North South University
