@@ -3,7 +3,9 @@
 
 </head>
 <body>
-<img align='center' src="Project Code/download.jpg" />
+<p align="center">
+  <img width="200" height="200" src="https://media.licdn.com/dms/image/C560BAQEFJPl7DXD1Dg/company-logo_200_200/0?e=2159024400&v=beta&t=4wzyvb7GBsvMovoet_LGS9uj_Gso_kmfWqCXnqydCDI">
+</p>
 <h1 align='center'>
 Department of Electrical and Computer Engineering
 North South University
