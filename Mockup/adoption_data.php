@@ -54,3 +54,28 @@ $connection = mysqli_connect("localhost", "root", "root", "database");
                         mysqli_close($connection); 
 
                         ?>
+                        <div class="footer">
+                <div class="footer_resize">
+                    <p class="lf">&copy; Copyright <a href="#">Orphanage</a>. &nbsp; &nbsp; All right reserved.</p>
+
+                    <div class="clr"></div>
+                </div>
+            </div>
+            </div>
+
+        </body>
+
+    </html>
+
+<div class="footer">
+                <div class="footer_resize">
+                    <p class="lf">&copy; Copyright <a href="#">Orphanage Hope</a>. &nbsp; &nbsp; All right reserved.</p>
+
+                    <div class="clr"></div>
+                </div>
+            </div>
+            </div>
+
+        </body>
+
+    </html>
