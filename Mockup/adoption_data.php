@@ -44,3 +44,13 @@ $connection = mysqli_connect("localhost", "root", "root", "database");
                                 <td>Orphanages ID</td>
                                 <td>Manager Name</td>
                             </tr>
+                            <?php
+                        while($row = mysqli_fetch_array($result)){   
+                        echo "<tr><td>" . $row['fathers_name'] . "</td><td>" . $row['mothers_name'] . "</td><td>". $row['fathers_nid'] ."</td><td>". $row['mothers_nid'] ."</td><td>". $row['mobile'] ." </td><td>". $row['address'] . "</td><td>". $row['email'] . "</td><td>". $row['orphanages_name'] . "</td><td>". $row['orphanages_id'] . "</td><td>". $row['manager_name'] . "</td></tr>";  
+                        }
+
+                        echo "</table>"; 
+
+                        mysqli_close($connection); 
+
+                        ?>
