@@ -22,3 +22,25 @@ $connection = mysqli_connect("localhost", "root", "root", "database");
                     <div class="clr"></div>
                     <div class="hbg"><img src="images/header_images.jpg" width="670" height="298" alt="" class="fl" />
                         <div class="info fl">
+                        	<div class="article">
+
+
+                        <h4 style="color:#97c950;">Eager Parents Data</h4>
+                        <br>
+                        <?php              
+                        $query = "SELECT * FROM adoption"; 
+                        $result = mysqli_query($connection,$query);
+                        ?>
+                        <table class="table table-hover">
+                            <tr>
+                                <td>Fathers Name</td>
+                                <td>Mothers Name</td>
+                                <td>Fathers NID</td>
+                                <td>Mothers NID</td>
+                                <td>Mobile No.</td>
+                                <td>Address</td>
+                                <td>Email Address</td>
+                                <td>Orphanages Name</td>
+                                <td>Orphanages ID</td>
+                                <td>Manager Name</td>
+                            </tr>
