@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Orphans</title>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" type="text/css">
+
+    <script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <body>
+        <div class="main">
+            <div class="header">
+
+                <div class="menu_nav">
+                   <ul>
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="orphanage.html">Orphanages</a></li>
+                        <li><a href="verification.html">Verification Authority</a></li>
+                        <li><a href="adoption.html">Adoption</a></li>
+                        <li><a href="donor.html">Donate Money</a></li>
+                        <li><a href="Admin/registration.php">Register</a></li>
+                        <li><a href="Admin/login.php">Log In</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="clr"></div>
+                <div class="hbg"><img src="images/or.jpg" width="1000" height="400" alt="" class="fl" /></div>
+                <div class="clr"></div>
+                <div class="clr"></div>
+            </div>
+            <div class="content">
+                <div class="mainbar">
+
+                    <div class="article">
+
+                        <h2><span>Adoption Form</span> </h2>
+                        <br>
+
+                        <form action="adoption.php" method="post">
+                            <table width="100%">
+                                <center>
+                                    <h2>Parents Details</h2>
+                                </center><br>
+                                <tr>
+                                    <td>
+                                        <h2> Father's Name</h2>
+                                    </td>
+                                    <td><input type="text" name="fathers_name"></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h2> Mother's Name</h2>
+                                    </td>
+                                    <td><input type="text" name="mothers_name"></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h2> Father's NID Number</h2>
+                                    </td>
+                                    <td><input type="text" name="fathers_nid"></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h2> Mother's NID Number</h2>
+                                    </td>
+                                    <td><input type="text" name="mothers_nid"></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h2> Mobile Number </h2>
+                                    </td>
+                                    <td><input type="text" name="mobile"></td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>
+                                        <h2> Address </h2>
+                                    </td>
+                                    <td><input type="textarea" name="address"></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <h2> Email</h2>
+                                    </td>
+                                    <td><input type="text" name="email"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <center>
+                                            <h2>Interested Orphanage's Details</h2>
+                                        </center><br></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h2> Orphanage's name </h2>
+                                    </td>
+                                    <td><input type="text" name="orphanages_name"></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h2> Orphanage's Id </h2>
+                                    </td>
+                                    <td><input type="textarea" name="orphanages_id"></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <h2> Manager's Name</h2>
+                                    </td>
+                                    <td><input type="text" name="manager_name"></td>
+                                </tr>
+
+                            </table>
+
+                            <button type="submit" value="submit" class="ui-btn ui-shadow">Submit</button>
+
+                        </form>
+
+
+                    </div>
+
+                </div>
+               
+                <div class="clr"></div>
+            </div>
+            
+            </div>
+            
+        </div>
+
+    </body>
+
+</html>
