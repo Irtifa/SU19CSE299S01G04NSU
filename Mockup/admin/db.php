@@ -1,7 +1,7 @@
 <?php
 
 
-$con = mysqli_connect("localhost","root","root","database");
+$con = mysqli_connect("localhost","root","","database");
 // Check connection
 if (mysqli_connect_errno())
   {
