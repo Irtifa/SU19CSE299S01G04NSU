@@ -39,7 +39,7 @@ For this, we will collect data from real orphanage owner and update our informat
 3.Log in<br>
 4.Adoption form<br>
 5.Donation form<br>
-6.Contact<br> 
+6.Registration   <br> 
 </h3><br>
 <h2>Features</h2>
 <h3 align='justify'>In this project we will use html, css, Php, MySQL for database. And this is a total web based project so that all the info that will provide the user will save on our database directly. User can not able to see any other person’s or user information. There are 2 types of register. One is admin another is orphanage owner. Orphanage owner can see the interested parents provided information. donation information can see the admin. The rest development need more advanced code and authorizations.</h3>
